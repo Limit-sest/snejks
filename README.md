@@ -1,3 +1,5 @@
+<img src="./repo_assets/Cover img.png" alt="Cover image" style="height: 400px width: auto;"/>
+
 # Snejks
 >Hra vytvořená v Pythonu pomocí Pygame, s mechanikami klasické hry snake.
 
