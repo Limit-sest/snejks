@@ -11,9 +11,7 @@ pygame.mixer.init()
 #TODO:
 #	Body na obrazovce
 #	Remíza	
-#	Options menu
-#	Last snake standing
-#	win screen
+#	Key queing
 #
 #	Mechaniky na ztizeni:
 #		Normalni jidlo, stejne jako jablko tady -> pridava delku i body
@@ -134,7 +132,7 @@ def game_over(winner):
 					if event.key == pygame.K_KP_ENTER or event.key == pygame.K_RETURN or event.key == pygame.K_q:
 						menu_confirm.play()
 						if selected_option == 0:
-							game(player_count_menu())
+							game(1)
 							game_running = False
 							break
 						if selected_option == 1:
